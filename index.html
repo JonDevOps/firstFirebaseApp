@@ -812,6 +812,22 @@ their skills and ideas by building to learn. To join a cohort(team) click the "A
       </div>
     </div>
 
+<!--This adds firebase to your website, keep this at the top of all other scripts in the body-->
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBJrZBPZPZoi0Osdxe7hCtHNmdPHbaBS6Q",
+        authDomain: "w3developsorg.firebaseapp.com",
+        databaseURL: "https://w3developsorg.firebaseio.com",
+        projectId: "w3developsorg",
+        storageBucket: "w3developsorg.appspot.com",
+        messagingSenderId: "237387880296"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
